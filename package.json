@@ -1,5 +1,5 @@
 {
-    "name": "my-component-lib",
+    "name": "cookie-validator-check",
     "version": "1.0.0",
     "description": "This is my first component library for testing.",
     "main": "dist/cjs/index.js",
