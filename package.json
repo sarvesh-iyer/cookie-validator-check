@@ -1,6 +1,6 @@
 {
     "name": "cookie-validator-check",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "This is my first component library for testing.",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
