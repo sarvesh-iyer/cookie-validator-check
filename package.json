@@ -1,0 +1,28 @@
+{
+    "name": "my-component-lib",
+    "version": "1.0.0",
+    "description": "This is my first component library for testing.",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "rm -rf dist/&& prettier --write src/ && npm run build:esm && npm run build:cjs",
+        "build:esm": "tsc",
+        "build:cjs": "tsc --module CommonJS --outDir dist/cjs"
+    },
+    "author": "Sarvesh Iyer",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^20.11.19",
+        "@types/react": "^18.2.55",
+        "@types/react-dom": "^18.2.19",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "typescript": "^5.3.3"
+    },
+    "dependencies": {
+        "typescript-cookie": "^1.0.6"
+    }
+}
