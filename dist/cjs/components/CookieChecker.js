@@ -26,7 +26,7 @@ const CookieChecker = (props) => {
             console.log('Document is inactive');
         }
     };
-    // return;
+    return null;
 };
 exports.CookieChecker = CookieChecker;
 //# sourceMappingURL=CookieChecker.js.map

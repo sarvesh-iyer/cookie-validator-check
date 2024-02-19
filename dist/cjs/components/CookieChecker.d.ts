@@ -4,5 +4,5 @@ type CookieCheckerProps = {
     jsonKey: string;
     guardClause: boolean;
 };
-export declare const CookieChecker: (props: CookieCheckerProps) => void;
+export declare const CookieChecker: (props: CookieCheckerProps) => null;
 export {};

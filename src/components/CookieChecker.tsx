@@ -33,5 +33,5 @@ export const CookieChecker = (props: CookieCheckerProps) => {
         }
     };
 
-    // return;
+    return null;
 };
