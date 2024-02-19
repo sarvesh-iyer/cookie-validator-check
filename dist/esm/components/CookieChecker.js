@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { getCookie } from 'typescript-cookie';
 export const CookieChecker = (props) => {
     let { cookieName, url, jsonKey, guardClause } = props;
@@ -23,6 +23,6 @@ export const CookieChecker = (props) => {
             console.log('Document is inactive');
         }
     };
-    return React.createElement("div", null, "CookieChecker");
+    // return;
 };
 //# sourceMappingURL=CookieChecker.js.map
