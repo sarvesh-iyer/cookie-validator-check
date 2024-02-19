@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { getCookie } from 'typescript-cookie';
 
 type CookieCheckerProps = {
@@ -33,5 +33,5 @@ export const CookieChecker = (props: CookieCheckerProps) => {
         }
     };
 
-    return <div>CookieChecker</div>;
+    // return;
 };
