@@ -1,9 +1,13 @@
 {
     "name": "cookie-validator-check",
-    "version": "0.0.2",
+    "version": "0.0.6",
     "description": "This function validates the cookie name whenever the document page gets visible and redirects to the specified URL.",
     "main": "dist/cjs/index.js",
     "module": "dist/esm/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sarvesh-iyer/my-first-npm-library"
+    },
     "keywords": [
         "cookies",
         "cookie validator",

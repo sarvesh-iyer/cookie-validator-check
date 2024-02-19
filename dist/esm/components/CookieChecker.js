@@ -23,6 +23,6 @@ export const CookieChecker = (props) => {
             console.log('Document is inactive');
         }
     };
-    // return;
+    return null;
 };
 //# sourceMappingURL=CookieChecker.js.map
