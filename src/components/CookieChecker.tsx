@@ -23,13 +23,13 @@ export const CookieChecker = (props: CookieCheckerProps) => {
             try {
                 let cookie = getCookie(cookieName) !== undefined ? getCookie(cookieName)! : '{}';
                 let userCacheData = JSON.parse(cookie);
-                console.log(userCacheData);
+                // console.log(userCacheData);
                 if (guardClause ? !userCacheData[jsonKey] : userCacheData[jsonKey]) {
                     window.location.href = url;
                 }
             } catch (e) {}
         } else {
-            console.log('Document is inactive');
+            // console.log('Document is inactive');
         }
     };
 
