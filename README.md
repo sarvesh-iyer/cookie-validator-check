@@ -1,3 +1,7 @@
+[![NPM](https://img.shields.io/badge/npm-v1.0.2-blue)](https://www.npmjs.com/package/cookie-validator-check)
+[![Publish npm Package](https://github.com/sarvesh-iyer/cookie-validator-check/actions/workflows/publish.yml/badge.svg)](https://github.com/sarvesh-iyer/cookie-validator-check/actions/workflows/publish.yml)
+[![NPM](https://img.shields.io/badge/Github%20Actions-passing-brightgreen)](https://github.com/sarvesh-iyer/cookie-validator-check/actions/workflows/publish.yml)
+
 # cookie-validator-check
 
 `cookie-validator-check` is a simple utility package that helps in validating cookies to ensure they contain the desired key-value pair. This validation occurs when the document becomes visible (e.g., when a user switches tabs). If the condition is met, the user can be redirected to a specified URL.
