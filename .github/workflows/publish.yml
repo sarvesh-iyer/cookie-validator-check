@@ -18,10 +18,13 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-
+          
       - name: Install dependencies
         run: npm install
 
+      - name: Install prettier
+        run: npm install --save-dev prettier
+      
       - name: Build the package
         run: npm run build # Modify this if you have a different build command
 
